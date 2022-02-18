@@ -1,0 +1,30 @@
+server:
+  port: 80
+person:
+  userName: 郭洋
+  age: 23
+  boss: true
+  birth: 2019/12/12 20:12:33
+  pet:
+    name: xiaoyi
+    weight: 8.1
+  interests: [篮球,游泳]
+  animal:
+    - je
+    - ma
+  score:
+    english:
+      first: 120
+      sec: 118
+      thi: 110
+    math: [131,121]
+    chinese: {first: 100,sec: 80}
+  salarys: [3999,4999.98,5999.99]
+  allPets:
+    - sick:
+        - {name: dahuang,weight: 80}
+        - {name: xiaohei,weight: 60}
+    - health: [{name: mario,weight: 47}]
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
